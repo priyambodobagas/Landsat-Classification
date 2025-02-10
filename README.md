@@ -1,26 +1,32 @@
-Klasifikasi Citra Landsat 8 Menggunakan QGIS
+# Klasifikasi Citra Landsat 8 dengan QGIS
 
-Deskripsi
+## Deskripsi
+Proyek ini melakukan klasifikasi citra Landsat 8 untuk mengidentifikasi berbagai kelas penggunaan lahan seperti badan air, vegetasi, pemukiman, dan lahan terbuka menggunakan Quantum GIS (QGIS). Data citra diunduh dari USGS dan diproses untuk menghasilkan peta klasifikasi.
 
-Proyek ini bertujuan untuk melakukan klasifikasi citra Landsat 8 menggunakan Quantum GIS (QGIS). Klasifikasi mencakup identifikasi badan air, vegetasi, pemukiman, dan lahan terbuka berdasarkan data yang diunduh dari USGS. Hasil akhir divisualisasikan dalam bentuk raster dan vektor.
+## Struktur Folder
+```
+📂 Landsat_Classification
+├── 📂 data                # Berisi citra Landsat 8 yang digunakan
+├── 📂 results             # Hasil klasifikasi dalam format raster/vector
+├── 📂 scripts             # Skrip pemrosesan jika ada
+├── 📂 docs                # Dokumentasi dan penjelasan proyek
+└── README.md              # Informasi tentang proyek
+```
 
+## Langkah-langkah
+1. **Unduh Data** - Citra Landsat 8 diperoleh dari USGS Earth Explorer.
+2. **Preprocessing** - Melakukan pemotongan area studi.
+3. **Klasifikasi** - Menggunakan metode klasifikasi di QGIS untuk membagi area ke dalam beberapa kelas.
+4. **Analisis Hasil** - Mengevaluasi hasil klasifikasi.
 
-Tahapan Proses
-1. Unduh Data: Mengambil citra Landsat 8 dari USGS sesuai area studi.
-2. Preprocessing: Pemotongan (clipping) area studi.
-3. Klasifikasi: Menggunakan supervised classification di QGIS, plugin SCP.
-4. Visualisasi: Menyimpan hasil klasifikasi dalam format raster dan vektor.
-5. Dokumentasi: Menyediakan file proyek dan panduan dalam repositori ini.
+## Hasil
+- Peta klasifikasi dalam format raster dan vektor.
+- Visualisasi hasil klasifikasi di QGIS.
 
-Hasil dan Output
-1. Raster hasil klasifikasi (klasifikasi_raster.tif)
-2. Vektor hasil klasifikasi (klasifikasi_vektor.shp dan file terkait)
-3. File proyek QGIS (project_jakarta.qgz)
-4. Video tutorial di YouTube (Tautan tersedia di bawah)
-
-Tautan Penting
-YouTube Tutorial: Tonton Video (Tambahkan link YouTube di sini)
-USGS Earth Explorer: Download Data Landsat 8
-
-Lisensi
-Proyek ini bersifat open-source dan dapat digunakan untuk tujuan edukasi dan penelitian.
+## Cara Menggunakan Repository Ini
+1. Clone repository ini dengan perintah:
+   ```sh
+   git clone <URL_REPO>
+   ```
+2. Buka folder proyek dan akses data hasil klasifikasi.
+3. Gunakan QGIS untuk melihat dan menganalisis hasil klasifikasi.
