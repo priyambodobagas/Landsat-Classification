@@ -23,6 +23,9 @@ Proyek ini melakukan klasifikasi citra Landsat 8 untuk mengidentifikasi berbagai
 - Peta klasifikasi dalam format raster dan vektor.
 - Visualisasi hasil klasifikasi di QGIS.
 
+## 📹 Video
+[![Tonton di YouTube](https://img.youtube.com/vi/QQjrBBhSGtA/0.jpg)](https://www.youtube.com/watch?v=QQjrBBhSGtA)
+
 ## Cara Menggunakan Repository Ini
 1. Clone repository ini dengan perintah:
    ```sh
