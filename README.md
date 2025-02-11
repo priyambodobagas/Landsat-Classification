@@ -3,14 +3,6 @@
 ## Deskripsi
 Proyek ini melakukan klasifikasi citra Landsat 8 untuk mengidentifikasi berbagai kelas penggunaan lahan seperti badan air, vegetasi, pemukiman, dan lahan terbuka menggunakan Quantum GIS (QGIS). Data citra diunduh dari USGS dan diproses untuk menghasilkan peta klasifikasi.
 
-## Struktur Folder
-```
-📂 Landsat-Classification
-├── 📂 data                # Berisi citra Landsat 8 yang digunakan
-├── 📂 results             # Hasil klasifikasi dalam format raster/vector
-└── README.md              # Informasi tentang proyek
-```
-
 ## Langkah-langkah
 1. **Unduh Data** - Citra Landsat 8 diperoleh dari USGS Earth Explorer.
 2. **Preprocessing** - Melakukan pemotongan area studi.
@@ -27,11 +19,3 @@ Karena ukuran file yang besar, data raster dapat diunduh dari Google Drive:
 
 ## 📹 Video
 [![Tonton di YouTube](https://img.youtube.com/vi/QQjrBBhSGtA/0.jpg)](https://www.youtube.com/watch?v=QQjrBBhSGtA)
-
-## Cara Menggunakan Repository Ini
-1. Clone repository ini dengan perintah:
-   ```sh
-   git clone <URL_REPO>
-   ```
-2. Buka folder proyek dan akses data hasil klasifikasi.
-3. Gunakan QGIS untuk melihat dan menganalisis hasil klasifikasi.
